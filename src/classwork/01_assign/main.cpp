@@ -1,12 +1,16 @@
-//Write the include statement for types.h here
+//write include statements
+#include "types.h"
+#include <iostream>
 
-//Write include for capturing input from keyboard and displaying output to screen
+//write namespace using statement for cout
+using std::cout;
 
 
-
-int main() 
+int main()
 {
+	int result = sum_numbers(5, 5);
+
+	cout << "Result: " << result;
 
 	return 0;
 }
-
