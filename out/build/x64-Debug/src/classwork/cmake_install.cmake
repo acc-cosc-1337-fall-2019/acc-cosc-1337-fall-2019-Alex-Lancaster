@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/src/classwork/01_assign/cmake_install.cmake")
+  include("C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/src/classwork/02_assign/cmake_install.cmake")
 
 endif()
 

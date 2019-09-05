@@ -203,6 +203,12 @@ cw_01_library_BINARY_DIR:STATIC=C:/Users/P2716613/source/repos/acc-cosc-1337-fal
 cw_01_library_SOURCE_DIR:STATIC=C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/src/classwork/01_assign
 
 //Value Computed by CMake
+cw_02_library_BINARY_DIR:STATIC=C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/src/classwork/02_assign
+
+//Value Computed by CMake
+cw_02_library_SOURCE_DIR:STATIC=C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/src/classwork/02_assign
+
+//Value Computed by CMake
 hw_01_library_BINARY_DIR:STATIC=C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/src/homework/01_expressions
 
 //Value Computed by CMake

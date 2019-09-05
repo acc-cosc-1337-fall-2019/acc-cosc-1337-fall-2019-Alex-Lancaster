@@ -77,3 +77,10 @@
 4	1406	589320097	test/classwork_test/01_assign_test/cw_01_tests.exe	13b53d830428fd4a
 6	5412	589320149	test/homework_test/01_expressions_test/CMakeFiles/hw_01_tests.dir/01_expressions_tests.cpp.obj	9248b0200571c20b
 5412	6090	589320149	test/homework_test/01_expressions_test/hw_01_tests.exe	eaafb759d79e571e
+28	1006	589393616	src/classwork/02_assign/CMakeFiles/cw_02_library.dir/decisions.cpp.obj	9ff4f7ab84ab7901
+100	1065	589393616	src/classwork/02_assign/CMakeFiles/cw_02_exe.dir/decisions.cpp.obj	b9b26df734f78a98
+65	1622	589393617	src/classwork/02_assign/CMakeFiles/cw_02_exe.dir/main.cpp.obj	eef47573258292e4
+4	124	589393652	src/classwork/02_assign/cw_02_library.lib	b4fc45b00de0204f
+18	1104	589393653	src/classwork/02_assign/cw_02_exe.exe	9f007c1cfbf3444f
+0	1137	589393738	src/classwork/02_assign/CMakeFiles/cw_02_exe.dir/main.cpp.obj	eef47573258292e4
+1137	1911	589393739	src/classwork/02_assign/cw_02_exe.exe	9f007c1cfbf3444f

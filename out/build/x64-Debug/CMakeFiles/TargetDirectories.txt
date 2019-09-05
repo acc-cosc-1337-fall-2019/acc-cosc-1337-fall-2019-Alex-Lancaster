@@ -7,11 +7,11 @@ C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/
 C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/src/classwork/CMakeFiles/rebuild_cache.dir
 C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/src/classwork/CMakeFiles/test.dir
 C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/src/classwork/CMakeFiles/edit_cache.dir
-C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/src/classwork/01_assign/CMakeFiles/cw_01_library.dir
-C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/src/classwork/01_assign/CMakeFiles/cw_01_exe.dir
-C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/src/classwork/01_assign/CMakeFiles/rebuild_cache.dir
-C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/src/classwork/01_assign/CMakeFiles/test.dir
-C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/src/classwork/01_assign/CMakeFiles/edit_cache.dir
+C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/src/classwork/02_assign/CMakeFiles/cw_02_library.dir
+C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/src/classwork/02_assign/CMakeFiles/cw_02_exe.dir
+C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/src/classwork/02_assign/CMakeFiles/rebuild_cache.dir
+C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/src/classwork/02_assign/CMakeFiles/test.dir
+C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/src/classwork/02_assign/CMakeFiles/edit_cache.dir
 C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/src/examples/CMakeFiles/rebuild_cache.dir
 C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/src/examples/CMakeFiles/test.dir
 C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/src/examples/CMakeFiles/edit_cache.dir
