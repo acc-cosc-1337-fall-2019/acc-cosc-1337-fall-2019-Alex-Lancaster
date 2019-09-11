@@ -120,3 +120,7 @@
 950	1168	589846559	src/homework/02_decisions/hw_02_library.lib	fd50a4ca3ed2c016
 37	1385	589846559	src/homework/02_decisions/CMakeFiles/hw_02_exe.dir/main.cpp.obj	79edda6f1b6421
 1386	2514	589846560	src/homework/02_decisions/hw_02_exe.exe	69f83aea0aaa7db1
+4	5339	589912518	test/homework_test/02_decisions_test/CMakeFiles/hw_02_tests.dir/02_decisions_tests.cpp.obj	b79839aec441a13e
+5340	6761	589912520	test/homework_test/02_decisions_test/hw_02_tests.exe	b9c9bb15673b9f19
+5	5660	589912779	test/homework_test/02_decisions_test/CMakeFiles/hw_02_tests.dir/02_decisions_tests.cpp.obj	b79839aec441a13e
+5661	6966	589912780	test/homework_test/02_decisions_test/hw_02_tests.exe	b9c9bb15673b9f19
