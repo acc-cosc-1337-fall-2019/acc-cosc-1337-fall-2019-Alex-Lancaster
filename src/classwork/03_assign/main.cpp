@@ -1,4 +1,4 @@
-#write includes statements
+//write include statements
 
 //write using statements for cin and cout
 
