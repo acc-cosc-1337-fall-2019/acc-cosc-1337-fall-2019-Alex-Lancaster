@@ -14,10 +14,9 @@ RESULT:
 5
 
 */
-
 void display_numbers(int num)
 {
-	for (int i = 1 : i <= num; ++i)  //for loop ex in C++
+	for (int i = 1; i <= num; ++i) 
 	{
 		std::cout << i << "\n";
 	}

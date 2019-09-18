@@ -3,20 +3,21 @@
 //the sum of all the squares of that number from 1 to the number. 
 //Example: sum_of_squares(4) 
 //1*1 + 2 * 2 + 3*3 + 4*4 = 30
-
 int sum_of_squares(int num)
 {
-	auto i = 0; // i is initiallized here so auto knows the data type
+	auto i = 0;
 	auto sum = 0;
 
-	while (i <= num)
+	while (i <= num) 
 	{
 		sum = sum + i * i;
-		++i; // i = i + 1
+		++i;//i = i + 1;
 	}
 
 	return sum;
 }
+
+
 
 
 //Using a while loop write code for display function that accepts a string and displays 
@@ -32,17 +33,13 @@ l
 0
 
 */
-
 void display(string str)
 {
-	auto i + 0;
-
-	while (i < str.length())
+	auto i = 0;
+	
+	while(i < str.length())
 	{
 		std::cout << str[i] << "\n";
 		++i;
 	}
-
-
-	return 0;
 }

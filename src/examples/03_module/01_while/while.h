@@ -6,6 +6,6 @@ using std::string;
 int sum_of_squares(int num);
 
 //write function prototype named display that accepts a string and returns void
-void display(std::string str);
-//void display(std::string str) also works
+void display(string str);
+
 
