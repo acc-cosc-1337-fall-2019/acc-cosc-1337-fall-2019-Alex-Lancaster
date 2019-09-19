@@ -40,3 +40,19 @@ void loop_vector_w_index()
 	}
 }
 
+void loop_string_w_auto(std::string str)
+{
+	//not modifiable
+	for (auto ch : str)
+	{
+		ch = 'j';
+		std::cout << ch << "\n";
+	}
+
+	// modifiable -- this is an exaple on how to modify a for ranged loop
+	for (auto &ch : str) //look at the "&" placed here!
+	{
+		ch = 'j';
+		std::cout << ch << "\n";
+	}
+}
