@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "src/examples/02_module/03_switch/ex_02_03_exe.exe"
+			"path" : "src/examples/03_module/02_for/ex_03_02_exe.exe"
 		},
 		{
-			"path" : "src/examples/02_module/03_switch/ex_02_03_exe.pdb"
+			"path" : "src/examples/03_module/02_for/ex_03_02_exe.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -18,7 +18,7 @@
 		],
 		"files" : 
 		[
-			"src/examples/02_module/03_switch/CMakeLists.txt",
+			"src/examples/03_module/02_for/CMakeLists.txt",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
@@ -285,7 +285,7 @@
 			]
 		}
 	],
-	"id" : "ex_02_03_exe::@f8747f86a248c936624f",
+	"id" : "ex_03_02_exe::@e4b972fb3eaa1577e56f",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -305,12 +305,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "ex_02_03_exe",
-	"nameOnDisk" : "ex_02_03_exe.exe",
+	"name" : "ex_03_02_exe",
+	"nameOnDisk" : "ex_03_02_exe.exe",
 	"paths" : 
 	{
-		"build" : "src/examples/02_module/03_switch",
-		"source" : "src/examples/02_module/03_switch"
+		"build" : "src/examples/03_module/02_for",
+		"source" : "src/examples/03_module/02_for"
 	},
 	"sourceGroups" : 
 	[
@@ -328,13 +328,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/examples/02_module/03_switch/main.cpp",
+			"path" : "src/examples/03_module/02_for/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/examples/02_module/03_switch/switch.cpp",
+			"path" : "src/examples/03_module/02_for/for.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

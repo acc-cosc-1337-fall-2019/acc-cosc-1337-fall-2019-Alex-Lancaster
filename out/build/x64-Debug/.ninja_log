@@ -124,3 +124,7 @@
 5340	6761	589912520	test/homework_test/02_decisions_test/hw_02_tests.exe	b9c9bb15673b9f19
 5	5660	589912779	test/homework_test/02_decisions_test/CMakeFiles/hw_02_tests.dir/02_decisions_tests.cpp.obj	b79839aec441a13e
 5661	6966	589912780	test/homework_test/02_decisions_test/hw_02_tests.exe	b9c9bb15673b9f19
+3	1805	590605334	build.ninja	ab4383bd8dfaccc7
+152	1946	590605336	src/examples/03_module/01_while/CMakeFiles/ex_03_01_while_exe.dir/main.cpp.obj	7c4fd26ea63f8449
+92	1979	590605336	src/examples/03_module/01_while/CMakeFiles/ex_03_01_while_exe.dir/while.cpp.obj	87b439c6ad5cdc10
+121	2033	590605336	src/examples/03_module/01_while/CMakeFiles/ex_03_01_while_library.dir/while.cpp.obj	401bfd4fa4e29767

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/src/classwork
+# Install script for directory: C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/src/examples/03_module/04_for_ranged
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -30,11 +30,5 @@ endif()
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/src/classwork/03_assign/cmake_install.cmake")
-
 endif()
 
