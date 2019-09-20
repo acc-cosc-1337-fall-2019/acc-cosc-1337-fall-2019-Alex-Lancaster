@@ -16,15 +16,26 @@ user enters a y or Y.
 int main() 
 {
 	auto user_choice = 'y';
-	int num = 0;
-	int result = 0;
+	string dna = "";
+	int menu_choice = 0;
 
 	do
 	{
 		cout << "Enter 1 for get GC content, 2 for get DNA complement: ";
-		cin >> num;
-		result = menu(num);
-		cout << "Factorial: " << result;
+		cin >> menu_choice;
+
+		if (menu_choice == 1)
+		{
+			cout << "Enter DNA string to receive content: ";
+			cin >> dna;
+			cout << get_gc_content(dna) << "\n";
+		}
+		if (menu_choice == 2)
+		{
+			cout << "Enter DNA string to recieve complement: ";
+			cin >> dna;
+			cout << get_dna_complement(dna) << "\n";
+		}
 
 		cout << "Continue...y or n: ";
 		cin >> user_choice;
