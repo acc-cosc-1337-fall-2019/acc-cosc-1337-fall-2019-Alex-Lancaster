@@ -1,7 +1,7 @@
 //write include statements
-#include<string>
-#include<iostream>
-#include "sequence.h"
+//#include<string>
+//#include<iostream>
+//#include "sequence.h"
 
 //write using statements for cin cout
 
