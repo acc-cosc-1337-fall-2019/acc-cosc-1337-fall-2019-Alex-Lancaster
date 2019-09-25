@@ -23,6 +23,7 @@ int main()
 		cin >> num;
 		result = factorial(num);
 		cout << "Factorial: " << result;
+		cout << "\n";
 
 		cout << "Continue...y or n: ";
 		cin >> user_choice;
