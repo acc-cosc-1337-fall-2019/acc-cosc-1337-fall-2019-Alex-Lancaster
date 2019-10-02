@@ -1,3 +1,10 @@
+#include "vectors.h"
+#include <string>
+#include <iostream>
+
+using std::cin;
+using std::cout;
+
 /*
 use a vector of int with values 8, 4, 20, 88, 66, 99
 
@@ -9,6 +16,18 @@ Program continues until user decides to exit.
 */
 int main() 
 {
+	auto selection = 'y';
+	do
+	{
+		int menuChoice = 1;
+		cout << "Enter 1 to return the max value from vector, or 2 to return any primes within it." << "\n";
+		cin >> menuChoice;
+
+		if (menuChoice == 1)
+		{
+			// write menu and function returns
+		}
+	}
 
 	return 0;
 }
