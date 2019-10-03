@@ -1,4 +1,10 @@
 //write include statemetns
+#include <iostream>
+#include <vector>
+#include "rectangle.h"
+
+using std::cout;
+using std::vector;
 
 /*
 Create a vector of rectangles
@@ -10,8 +16,20 @@ Width	Height		Area
 Iterate the vector and display the Area for each Rectangle on one line and the total area for the
 3 rectangles.
 */
+
 int main()
 {
-	
-	return 0;
+	{
+		vector<Rectanglee> rectangles;
+		rectangles.push_back(Rectanglee(4, 5));
+		rectangles.push_back(Rectanglee(10, 10));
+		rectangles.push_back(Rectanglee(100, 10));
+
+		for (auto rec : rectangles)
+		{
+			cout << "Area of Rectangle: " <<  rec.get_area() << "\n";
+		}
+
+		return 0;
+	}
 }
