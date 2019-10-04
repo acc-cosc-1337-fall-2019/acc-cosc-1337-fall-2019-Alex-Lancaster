@@ -10,7 +10,7 @@ const reference vector of ints parameter that returns an int
 @return the max value in the vector
 */
 
-int get_max_from_vector(cosnt vector<int>& num);
+int get_max_from_vector(const vector<int>& num);
 
 
 

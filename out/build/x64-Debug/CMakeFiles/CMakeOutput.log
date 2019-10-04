@@ -1,4 +1,4 @@
-The system is: Windows - 10.0.16299 - AMD64
+The system is: Windows - 10.0.18362 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.22.27905/bin/HostX64/x64/cl.exe 
 Build flags: 
@@ -21,7 +21,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
-The C compiler identification is MSVC, found in "C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/CMakeFiles/3.14.19060802-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
+The C compiler identification is MSVC, found in "C:/Users/winel/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/CMakeFiles/3.14.19060802-MSVC_2/CompilerIdC/CMakeCCompilerId.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.22.27905/bin/HostX64/x64/cl.exe 
@@ -45,60 +45,60 @@ Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" p
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
 
-The CXX compiler identification is MSVC, found in "C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/CMakeFiles/3.14.19060802-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
+The CXX compiler identification is MSVC, found in "C:/Users/winel/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/CMakeFiles/3.14.19060802-MSVC_2/CompilerIdCXX/CMakeCXXCompilerId.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/winel/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_e73be 
-[1/2] Building C object CMakeFiles\cmTC_e73be.dir\testCCompiler.c.obj
-[2/2] Linking C executable cmTC_e73be.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_f38a0 
+[1/2] Building C object CMakeFiles\cmTC_f38a0.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_f38a0.exe
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/winel/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_cdbe4 
-[1/2] Building C object CMakeFiles\cmTC_cdbe4.dir\CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_cdbe4.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_5e29d 
+[1/2] Building C object CMakeFiles\cmTC_5e29d.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_5e29d.exe
 
 
 
 
 Detecting C [] compiler features compiled with the following output:
-Change Dir: C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/winel/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_8f5cb 
-[1/2] Building C object CMakeFiles\cmTC_8f5cb.dir\feature_tests.c.obj
-[2/2] Linking C executable cmTC_8f5cb.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_c1f3c 
+[1/2] Building C object CMakeFiles\cmTC_c1f3c.dir\feature_tests.c.obj
+[2/2] Linking C executable cmTC_c1f3c.exe
 
 
     Feature record: C_FEATURE:1c_function_prototypes
     Feature record: C_FEATURE:1c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/winel/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_b9270 
-[1/2] Building CXX object CMakeFiles\cmTC_b9270.dir\testCXXCompiler.cxx.obj
-[2/2] Linking CXX executable cmTC_b9270.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_0488b 
+[1/2] Building CXX object CMakeFiles\cmTC_0488b.dir\testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_0488b.exe
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/winel/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_36b93 
-[1/2] Building CXX object CMakeFiles\cmTC_36b93.dir\CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_36b93.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_2ad22 
+[1/2] Building CXX object CMakeFiles\cmTC_2ad22.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_2ad22.exe
 
 
 
 
 Detecting CXX [] compiler features compiled with the following output:
-Change Dir: C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/winel/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_e3640 
-[1/2] Building CXX object CMakeFiles\cmTC_e3640.dir\feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_e3640.exe
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_df804 
+[1/2] Building CXX object CMakeFiles\cmTC_df804.dir\feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_df804.exe
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
