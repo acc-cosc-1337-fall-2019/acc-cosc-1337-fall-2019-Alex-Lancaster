@@ -22,3 +22,22 @@ TEST_CASE("Test calculate_gpa quotient")
 	REQUIRE(calculate_gpa(4, 15) == 3.75);
 	REQUIRE(calculate_gpa(1, 1) == 1);
 }
+
+TEST_CASE("Test get letter grade using if")
+{
+	REQUIRE(get_letter_grade_using_if(99) == "A");
+	REQUIRE(get_letter_grade_using_if(89) == "B");
+	REQUIRE(get_letter_grade_using_if(71) == "C");
+	REQUIRE(get_letter_grade_using_if(69) == "D");
+	REQUIRE(get_letter_grade_using_if(55) == "F");
+}
+
+TEST_CASE("Test get letter grade using switch")
+{
+	REQUIRE(get_letter_grade_using_switch(95) == "A");
+	REQUIRE(get_letter_grade_using_switch(85) == "B");
+	REQUIRE(get_letter_grade_using_switch(75) == "C");
+	REQUIRE(get_letter_grade_using_switch(65) == "D");
+	REQUIRE(get_letter_grade_using_switch(55) == "F");
+}
+

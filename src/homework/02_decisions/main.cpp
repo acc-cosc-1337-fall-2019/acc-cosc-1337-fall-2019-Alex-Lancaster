@@ -54,5 +54,24 @@ int main()
 	double gpa = calculate_gpa(sum_credit_hours, sum_credit_points);
 	cout << "GPA: " << gpa;
 
+	/*homework: prompt user for numerical grade and if number is between 0 and 100,
+	call both get_letter_grade_using_if and get_letter_grade_using_switch functions
+	to display letter grade to screen, otherwise display number out of range*/
+
+	int grade;
+
+	cout << "Enter the grade %: ";
+	cin >> grade;
+
+	if (grade > 0 && grade <= 100)
+	{
+		cout << "If function call grade: " << get_letter_grade_using_if << "\n";
+		cout << "Switch function call grade: " << get_letter_grade_using_switch << "\n";
+	}
+	else
+	{
+		cout << grade << "Is out of range" << "\n"
+	}
+
 	return 0;
 }
