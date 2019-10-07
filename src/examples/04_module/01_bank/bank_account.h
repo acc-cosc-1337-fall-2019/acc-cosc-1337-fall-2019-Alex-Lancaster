@@ -1,4 +1,7 @@
 //bank_account.h
+#ifndef BANK_ACCOUNT_H // header-guard to prevent class redefinition
+#define BANK_ACCOUNT_H
+
 class BankAccount
 {
 public:
@@ -13,3 +16,5 @@ private:
 
 
 };
+
+#endif
