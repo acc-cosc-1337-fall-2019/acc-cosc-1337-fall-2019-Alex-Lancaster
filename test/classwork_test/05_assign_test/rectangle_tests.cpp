@@ -8,9 +8,9 @@ TEST_CASE("Verify Test Configuration", "verification") {
 
 TEST_CASE("Test rectangle initialize")
 {
-	Rectanglee r(4, 5);
-	Rectanglee s(10, 10);
-	Rectanglee t(100, 10);
+	acc::Rectangle r(4, 5);
+	acc::Rectangle s(10, 10);
+	acc::Rectangle t(100, 10);
 
 	REQUIRE(r.get_area() == 20);
 	REQUIRE(s.get_area() == 100);
