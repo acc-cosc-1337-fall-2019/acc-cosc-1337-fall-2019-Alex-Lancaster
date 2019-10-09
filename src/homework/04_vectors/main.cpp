@@ -57,7 +57,7 @@ int main()
 		cout << "Continue? y/n: " << "\n";
 		cin >> userSelection;
 
-	} while (userSelection == "y" || userSelection == "Y");
+	} while (userSelection == 'y' || userSelection == 'Y');
 
 	return 0;
 }

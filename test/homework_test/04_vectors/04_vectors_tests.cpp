@@ -27,10 +27,11 @@ TEST_CASE("Test is prime function")
 
 TEST_CASE("Test function vector of primes")
 {
-	vector<int> vectorX{ 2,3 };
+	vector<int> vectorX{ 2,3,5 };
 	REQUIRE(vector_of_primes(5) == vectorX);
 	vector<int> vectorY{ 2,3,5,7 };
 	REQUIRE(vector_of_primes(10) == vectorY);
-	vector<int> vectorZ{ 2,3,5,7,11,13,17,19,23 };
-	REQUIRE(vector_of_primes(24) == vectorZ);
+	vector<int> vectorZ{ 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47 };
+	REQUIRE(vector_of_primes(50) == vectorZ);
+
 }
