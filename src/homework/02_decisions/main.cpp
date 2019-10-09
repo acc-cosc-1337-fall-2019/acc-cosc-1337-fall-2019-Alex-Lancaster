@@ -70,7 +70,7 @@ int main()
 	}
 	else
 	{
-		cout << grade << "Is out of range" << "\n"
+		cout << grade << "Is out of range" << "\n";
 	}
 
 	return 0;

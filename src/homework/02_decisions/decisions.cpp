@@ -43,6 +43,11 @@ int get_grade_points(std::string letter_grade)
 //credit_hours. In the function account for division by zero by returning a -1.
 double calculate_gpa(int credit_hours, double credit_points)
 {
+	if (credit_points < 1) 
+	{
+		return -1;
+	}
+
 	return credit_points / credit_hours;
 }
 
@@ -52,19 +57,19 @@ string get_letter_grade_using_if(int grade)
 	{
 		return "A";
 	}
-	else if (grade >= 80 && grade < 89)
+	else if (grade >= 80 && grade < 90)
 	{
 		return "B";
 	}
-	else if (grade >= 70 && grade < 79)
+	else if (grade >= 70 && grade < 80)
 	{
 		return "C";
 	}
-	else if (grade >= 60 && grade < 69)
+	else if (grade >= 60 && grade < 70)
 	{
 		return "D";
 	}
-	else if (grade >= 00 && grade < 59)
+	else if (grade >= 00 && grade < 60)
 	{
 		return "F";
 	}
@@ -93,5 +98,5 @@ string get_letter_grade_using_switch(int grade)
 	default:
 		return "Invalid number";
 	}
-	return string();
+	
 }
