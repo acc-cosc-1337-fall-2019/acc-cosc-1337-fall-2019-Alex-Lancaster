@@ -3,8 +3,8 @@
 #include <vector>
 #include "rectangle.h"
 
-using std::cout;
 using std::vector;
+using std::cout;
 
 /*
 Create a vector of rectangles
@@ -19,7 +19,6 @@ Iterate the vector and display the Area for each Rectangle on one line and the t
 
 int main()
 {
-	{
 		vector<acc::Rectangle> rectangles;
 		rectangles.push_back(acc::Rectangle(4, 5));
 		rectangles.push_back(acc::Rectangle(10, 10));
@@ -27,9 +26,8 @@ int main()
 
 		for (auto rec : rectangles)
 		{
-			cout << "Area of Rectangle: " <<  rec.get_area() << "\n";
+			cout << rec;
 		}
 
 		return 0;
-	}
 }
