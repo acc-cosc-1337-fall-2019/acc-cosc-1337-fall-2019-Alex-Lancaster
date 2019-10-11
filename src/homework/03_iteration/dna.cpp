@@ -11,18 +11,19 @@ double get_gc_content(const string &dna)
 {
 	double gc_count = 0;
 	double gc_quotient = 0;
-	double char_count = 0;
 
 	for (char ch : dna)
 	{
-		++char_count;
 
 		if (ch == 'C'|| ch == 'G')
 		{
 			++gc_count;
 		}
-		gc_quotient = gc_count / char_count;
+		
 	}
+
+	gc_quotient = gc_count / dna.size();
+
 	return gc_quotient;
 }
 

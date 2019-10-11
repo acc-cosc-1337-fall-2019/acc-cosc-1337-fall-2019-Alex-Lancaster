@@ -8,8 +8,8 @@ TEST_CASE("Verify Test Configuration", "verification") {
 
 TEST_CASE("Test get GC content function")
 {
-	REQUIRE(get_gc_content("GATTACA") == .285714);
-	REQUIRE(get_gc_content("GATCCCTAGA") == .50);
+	REQUIRE(get_gc_content("AGCTATAG") == .375);
+	REQUIRE(get_gc_content("CGCTATAG") == .50);
 }
 
 TEST_CASE("Test get reverse string function")
@@ -20,6 +20,6 @@ TEST_CASE("Test get reverse string function")
 
 TEST_CASE("Test DNA complement function")
 {
-	REQUIRE(get_dna_complement("GATTACA") == "CTAATGT");
-	REQUIRE(get_dna_complement("GATCCCTAGA") == "CTAGGGATCT");
+	REQUIRE(get_dna_complement("AAAACCCGGT") == "ACCGGGTTTT");
+	REQUIRE(get_dna_complement("CCCGGAAAAT") == "ATTTTCCGGG");
 }
