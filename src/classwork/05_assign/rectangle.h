@@ -11,7 +11,7 @@ namespace acc {
 	public:
 		Rectangle(int w, int h) : width(w), height(h) { calculate_area(); }; //inline constructor
 		int get_area()const;
-		friend std::ostream & operator << (std::ostream out, const Rectangle & r);
+		friend std::ostream & operator << (std::ostream& out, const Rectangle & r);
 
 	private:
 		int width;
