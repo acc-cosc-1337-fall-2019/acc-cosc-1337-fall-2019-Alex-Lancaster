@@ -14,8 +14,10 @@ ostream& operator<<(ostream& out, const Customer& c)
 
 	for (auto act : c.accounts)
 	{
-		out << act
+		out << act;
 	}
 
 	out << "\n Total Balance: " << c.total_balance;
+
+	return out;
 }
