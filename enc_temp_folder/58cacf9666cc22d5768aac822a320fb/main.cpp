@@ -14,8 +14,8 @@ int main()
 	//cout << a.get_balance();
 	cout << a;
 	SavingsAccount savings(500);
-	cout << "Calls bank account overload ostream \n" << savings;
-	cout << "Savings get_balance \n" << "\n" << savings.get_balance() << "\n";
+	cout << savings;
+	cout << "\n" << savings.get_balance() << "\n";
 	savings.add_interest();
 	cout << savings;
 

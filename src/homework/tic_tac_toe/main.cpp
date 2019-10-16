@@ -27,7 +27,7 @@ int main()
 		}
 		if (board.get_player() == "X")
 		{
-			winner = "0";
+			winner = "O";
 		}
 		else
 		{
