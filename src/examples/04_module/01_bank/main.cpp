@@ -10,20 +10,21 @@ using std::vector;
 
 int main()
 {
-	CheckingAccount a(1500); // Assigning a beginning amount to account
-	//cout << a.get_balance();
-	cout << a;
+	CheckingAccount checking(1500); 
+	cout << "\n Checking get_balance: " << checking.get_balance() << "\n";
+
 	SavingsAccount savings(500);
-	cout << "Calls bank account overload ostream \n" << savings;
-	cout << "Savings get_balance \n" << "\n" << savings.get_balance() << "\n";
-	savings.add_interest();
-	cout << savings;
+	cout << "\n Savings get_balance: " << savings.get_balance() << "\n";
 
-	BankAccount c = a + savings;
+	BankAccount& account = savings;
+	cout << "\n Ref to savings get_balance: " << account.get_balance() << "\n";
 
-	cout << c;
-
-
+	//4 features of object oriented programming
+	//Abstraction
+	//Encapsulation
+	//Polymorphism 
+	//Inheritance
+	
 	return 0;
 }
 
