@@ -1,3 +1,4 @@
+#include<functional>
 #include<iostream>
 #include<vector>
 #include "checking_account.h"
@@ -6,25 +7,26 @@
 using std::cout;
 using std::cin;
 using std::vector;
+using std::reference_wrapper;
 
 
 int main()
 {
-	CheckingAccount checking(1500); 
-	cout << "\n Checking get_balance: " << checking.get_balance() << "\n";
+	CheckingAccount c(1500);
+	SavingsAccount s(500);
 
-	SavingsAccount savings(500);
-	cout << "\n Savings get_balance: " << savings.get_balance() << "\n";
+	vector<reference_wrapper<BankAccount>> accounts{ c,s };
 
-	BankAccount& account = savings;
-	cout << "\n Ref to savings get_balance: " << account.get_balance() << "\n";
+	for (auto act : accounts)
+	{
+		cout << "Balance: " << act.get().get_balance() << "\n";
+	}
 
-	//4 features of object oriented programming
-	//Abstraction
-	//Encapsulation
-	//Polymorphism 
-	//Inheritance
-	
 	return 0;
 }
 
+//4 features of object oriented programming
+//Abstraction
+//Encapsulation
+//Polymorphism 
+//Inheritance
