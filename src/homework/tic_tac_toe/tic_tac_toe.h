@@ -2,7 +2,11 @@
 #include<vector>
 #include<iostream>
 
-using std::string; using::std::vector; using std::cout; using std::cin;
+#ifndef TIC_TAC_TOE_H //header guard
+#define TIC_TAC_TOE_H
+
+
+using std::string; using::std::vector; using std::ostream; using std::istream;
 
 //h
 
@@ -15,7 +19,9 @@ public:
 	void start_game(string player);
 	void mark_board(int position);
 	string get_player() const;
-	void display_board() const;
+	string get_winner() const;
+	friend ostream& operator<<(ostream& out, const TicTacToe& t);
+	friend ostream& operator>>(istream& in, TicTacToe& t);
 
 
 private:
@@ -25,8 +31,10 @@ private:
 	bool check_diagonal_win();
 	void clear_board();
 	bool check_board_full();
+	void set_winner();
 	vector<string> pegs{ 9, " " }; //initializer
 	string next_player;
 
 };
 
+#endif TIC_TAC_TOE_H
