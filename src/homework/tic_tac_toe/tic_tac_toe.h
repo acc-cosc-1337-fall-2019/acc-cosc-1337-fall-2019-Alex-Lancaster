@@ -21,7 +21,7 @@ public:
 	string get_player() const;
 	string get_winner() const;
 	friend ostream& operator<<(ostream& out, const TicTacToe& t);
-	friend ostream& operator>>(istream& in, TicTacToe& t);
+	friend istream& operator>>(istream& in, TicTacToe& t);
 
 
 private:
@@ -34,7 +34,7 @@ private:
 	void set_winner();
 	vector<string> pegs{ 9, " " }; //initializer
 	string next_player;
-
+	string winner;
 };
 
 #endif TIC_TAC_TOE_H

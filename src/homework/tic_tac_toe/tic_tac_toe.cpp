@@ -44,14 +44,6 @@ string TicTacToe::get_winner() const
 	return winner;
 }
 
-void TicTacToe::display_board() const
-{
-	for (std::size_t i = 0; i <= 6; i += 3)
-	{
-		cout << pegs[i] << "|" << pegs[i + 1] << "|" << pegs[i + 2] << "\n";
-	}
-}
-
 void TicTacToe::set_next_player()
 {
 	if (next_player == "X")
@@ -132,7 +124,7 @@ void TicTacToe::set_winner()
 	}
 	else
 	{
-		winner = "X"
+		winner = "X";
 	}
 }
 
@@ -146,7 +138,7 @@ ostream & operator<<(ostream & out, const TicTacToe & t)
 	return out;
 }
 
-ostream & operator>>(istream & in, TicTacToe & t)
+istream & operator>>(istream & in, TicTacToe & t)
 {
 	int position;
 

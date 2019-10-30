@@ -1,5 +1,5 @@
 
-#include"tic_tac_toe.h"
+#include"tic_tac_toe_manager.h"
 #include<iostream>
 #include<string>
 
@@ -8,7 +8,7 @@ using std::cout; using std::cin; using std::string;
 int main()
 {
 	char cont = 'y';
-	TicTacToe manager;
+	TicTacToeManager manager;
 	string player;
 
 	do
