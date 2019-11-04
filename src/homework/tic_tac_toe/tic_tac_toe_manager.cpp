@@ -39,3 +39,4 @@ void TicTacToeManager::update_winner_count(string winner)
 		ties++;
 	}
 }
+
