@@ -21,3 +21,4 @@ ostream& operator<<(ostream& out, const Customer& c)
 
 	return out;
 }
+

@@ -1,40 +1,47 @@
+
 #include<string>
 #include<vector>
-#include<iostream>
-
-#ifndef TIC_TAC_TOE_H //header guard
-#define TIC_TAC_TOE_H
+#include <iostream>
 
 
-using std::string; using::std::vector; using std::ostream; using std::istream;
+#ifndef TIC_TAC_TOE_H //Header guard, prevents errors if the
+#define TIC_TAC_TOE_H //Compiler makes a copy of Tic Tac Toe
+
+using std::vector;
+using std::string;
+using std::ostream;
 
 //h
-
-//represents a single game of tic tac toe.
-
 class TicTacToe
 {
 public:
+	TicTacToe() {};
+	TicTacToe(int size) : pegs(size * size, " ") {}; 
+
 	bool game_over();
 	void start_game(string player);
 	void mark_board(int position);
+	void display_base_board(TicTacToe& board);
 	string get_player() const;
 	string get_winner() const;
-	friend ostream& operator<<(ostream& out, const TicTacToe& t);
-	friend ostream& operator>>(istream& in, TicTacToe& t);
 
+	friend std::istream& operator>> (std::istream& in, TicTacToe& board);
+	friend std::ostream& operator<< (std::ostream& out, TicTacToe& board);
+
+protected:
+	virtual bool check_column_win();
+	virtual bool check_row_win();
+	virtual bool check_diagonal_win();
+	vector<string> pegs; // Initializer
 
 private:
-	void set_next_player();
-	bool check_column_win();
-	bool check_row_win();
-	bool check_diagonal_win();
-	void clear_board();
-	bool check_board_full();
-	void set_winner();
-	vector<string> pegs{ 9, " " }; //initializer
 	string next_player;
+	string winner;
+	void set_next_player();
+	bool check_board_full();
+	void clear_board();
+	void set_winner();
 
 };
 
-#endif TIC_TAC_TOE_H
+#endif // TIC_TAC_TOE_H

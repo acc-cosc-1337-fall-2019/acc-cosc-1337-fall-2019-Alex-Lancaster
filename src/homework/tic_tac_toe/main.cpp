@@ -1,43 +1,63 @@
-# include "tic_tac_toe.h"
+#include "tic_tac_toe.h"
+#include "tic_tac_toe_manager.h"
+#include "tic_tac_toe_3.h"
+#include "tic_tac_toe_4.h"
+#include<iostream>
 
-int main() 
+using std::cout;
+using std::cin;
+
+int main()
 {
-	TicTacToe board;
-	string start;
-	string winner;
-	int uPosition;
-	auto continuePrompt = '1';
+
+	TicTacToeManager manager;
+	string player = "X";
+	string contin = "Y";
+	int game_type;
+
 	do
 	{
-		cout << "Welcome to Tic Tac Toe! \n";
-		cout << "Positions on the board are as follows:\n";
-		cout << " 1 | 2 | 3 " << "\n" << " 4 | 5 | 6 " << "\n" << " 7 | 8 | 9 \n";
-		cout << "Will X or O go first? Enter Capital Letter X or O: ";
-		cin >> start;
-		cout << "\n";
-		board.start_game(start);
-		board.display_board();
+		TicTacToe* board;
 
-		while (!board.game_over())
+		cout << "\nPlay window by (3)x3 or (4)x4: ";
+		cin >> game_type;
+
+		if (game_type == 3)
 		{
-			cout << "\nEnter move for " << board.get_player() << ",1-9: ";
-			cin >> uPosition;
-			board.mark_board(uPosition);
-			board.display_board();
-		}
-		if (board.get_player() == "X")
-		{
-			winner = "O";
+			board = new TicTacToe3();
+			cout << "\n";
+			board->display_base_board(*board); 
 		}
 		else
 		{
-			winner = "X";
+			board = new TicTacToe4();
+			cout << "\n";
+			board->display_base_board(*board); 
 		}
 
-		cout << "\nThe Winner is " << winner;
-		cout << "\nWould you like to play again? Press 1 for yes, any other to exit: ";
-		cin >> continuePrompt;
-	} while (continuePrompt == '1');
+
+		cout << "\nWill X or O have the first turn?: ";
+		cin >> player;
+		board->start_game(player);
+
+		while (!board->game_over())
+		{
+			cin >> *board;
+			cout << *board;
+		}
+
+		cout << "\nWinner: ";
+		cout << board->get_winner() << "\n";
+
+		manager.save_game(*board);
+
+		cout << "\nGame over! Play again? Y/N: ";
+		cin >> contin;
+
+	} while (contin == "Y" || contin == "y");
+
+	cout << "History: \n";
+	cout << manager;
 
 	return 0;
 }

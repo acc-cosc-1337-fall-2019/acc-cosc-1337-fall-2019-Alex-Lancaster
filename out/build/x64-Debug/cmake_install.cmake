@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/winel/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster
+# Install script for directory: C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019/acc-cosc-1337-fall-2019-Alex-Lancaster
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/winel/Source/Repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/P2716613/Source/Repos/acc-cosc-1337-fall-2019/acc-cosc-1337-fall-2019-Alex-Lancaster/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/winel/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/src/cmake_install.cmake")
-  include("C:/Users/winel/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/test/cmake_install.cmake")
+  include("C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/src/cmake_install.cmake")
+  include("C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/test/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/winel/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019/acc-cosc-1337-fall-2019-Alex-Lancaster/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

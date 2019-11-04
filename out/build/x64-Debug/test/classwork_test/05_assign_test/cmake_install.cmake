@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/winel/source/repos/acc-cosc-1337-fall-2019-Alex-Lancaster/test/classwork_test/05_assign_test
+# Install script for directory: C:/Users/P2716613/source/repos/acc-cosc-1337-fall-2019/acc-cosc-1337-fall-2019-Alex-Lancaster/test/classwork_test/05_assign_test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/winel/Source/Repos/acc-cosc-1337-fall-2019-Alex-Lancaster/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/P2716613/Source/Repos/acc-cosc-1337-fall-2019/acc-cosc-1337-fall-2019-Alex-Lancaster/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
