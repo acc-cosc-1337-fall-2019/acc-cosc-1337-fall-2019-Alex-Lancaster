@@ -14,7 +14,7 @@ bool TicTacToe::game_over()
 	}
 	if (check_board_full())
 	{
-		winner = "Cat";
+		winner = "C";
 		return true;
 	}
 	else
