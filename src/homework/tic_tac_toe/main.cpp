@@ -3,6 +3,7 @@
 #include "tic_tac_toe_3.h"
 #include "tic_tac_toe_4.h"
 #include<iostream>
+#include<string>
 
 using std::cout;
 using std::cin;
@@ -13,6 +14,7 @@ int main()
 	TicTacToeManager manager;
 	string player = "X";
 	string contin = "Y";
+	unique_ptr<TicTacToeManager> manager = std::make_unique<TicTacToeManager>();
 	int game_type;
 
 	do
@@ -21,16 +23,18 @@ int main()
 
 		cout << "\nPlay window by (3)x3 or (4)x4: ";
 		cin >> game_type;
+		unique_ptr<TicTacToe> game;
 
 		if (game_type == 3)
 		{
-			board = new TicTacToe3();
+			board = std::make_unique<TicTacToeManager>();
 			cout << "\n";
-			board->display_base_board(*board); 
+			board->display_base_board(*board);
+
 		}
 		else
 		{
-			board = new TicTacToe4();
+			board = std::make_unique<TicTacToeManager>();
 			cout << "\n";
 			board->display_base_board(*board); 
 		}
