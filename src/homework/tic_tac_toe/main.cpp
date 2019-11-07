@@ -61,7 +61,7 @@ int main()
 	} while (contin == "Y" || contin == "y");
 
 	cout << "History: \n";
-	cout << manager;
+	cout << *manager;
 
 	return 0;
 }
