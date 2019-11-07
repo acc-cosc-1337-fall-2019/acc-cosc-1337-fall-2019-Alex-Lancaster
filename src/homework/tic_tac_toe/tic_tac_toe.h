@@ -24,7 +24,7 @@ public:
 	void display_base_board(TicTacToe& board);
 	string get_player() const;
 	string get_winner() const;
-
+	const std::vector<std::string>& get_pegs();
 	friend std::istream& operator>> (std::istream& in, TicTacToe& board);
 	friend std::ostream& operator<< (std::ostream& out, TicTacToe& board);
 
