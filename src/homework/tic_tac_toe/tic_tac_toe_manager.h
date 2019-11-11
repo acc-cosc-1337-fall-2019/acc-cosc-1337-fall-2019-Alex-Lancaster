@@ -1,10 +1,9 @@
 //h
-#ifndef TIC_TAC_TOE_MANAGER_H // Header guard
+#ifndef TIC_TAC_TOE_MANAGER_H
 #define TIC_TAC_TOE_MANAGER_H
-
-#include <vector>
+#include<memory>
+#include<vector>
 #include "tic_tac_toe.h"
-#include <memory>
 #include "tic_tac_toe_3.h"
 #include "tic_tac_toe_4.h"
 
@@ -15,20 +14,18 @@ class TicTacToeManager
 {
 public:
 	void save_game(unique_ptr<TicTacToe>& game);
-	friend ostream& operator<<(ostream& out, const TicTacToeManager& m);
 	const std::vector<std::unique_ptr<TicTacToe>>& get_games();
 	void get_winner_totals(int& x, int& o, int& c);
-	std::unique_ptr<TicTacToe> get_game(int game_type);
-
+	unique_ptr<TicTacToe> get_game(int game_type);
+	friend ostream& operator<<(ostream& out, const TicTacToeManager& m);
 
 private:
 	void update_winner_count(string winner);
-	vector<TicTacToe> games;
-	vector<unique_ptr<TicTacToe>> board;
-	int x_wins{ 0 }; 
-	int o_wins{ 0 }; 
+	vector<unique_ptr<TicTacToe>> games;
+	int x_win{ 0 };
+	int o_win{ 0 };
 	int ties{ 0 };
 };
 
 
-#endif
+#endif // !TIC_TAC_TOE_MANAGER_H

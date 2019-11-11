@@ -42,7 +42,7 @@ int main()
 		cout << "\nWinner: ";
 		cout << board->get_winner() << "\n";
 
-		manager->save_game(*board);
+		manager->save_game(board);
 
 		cout << "\nGame over! Play again? Y/N: ";
 		cin >> contin;

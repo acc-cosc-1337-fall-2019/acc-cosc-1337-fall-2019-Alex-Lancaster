@@ -80,7 +80,7 @@ void Panel::on_list_box_click(wxCommandEvent& event)
 
 	wxGridSizer* sizer;
 
-	if (9 == 9)
+	if (board->get_pegs().size() == 9)
 	{
 		sizer = tic_tac_toe_grid_3;
 		tic_tac_toe_grid_4->Show(false);
@@ -137,7 +137,6 @@ void Panel::on_start_button_click(wxCommandEvent & event)
 		2) Gets a tic tac toe game from the TicTacToeManager class using the
 		numbers 3 or 4 or the GameType enumeration GameType::three or GameType::four
 		tic_tac_toe_3 or tic_tac_toe_4 options.
-		
 
 		Set the class member variable board equal to the manager's get_game function result.
 		pass 3,4, or if you have my solution the values GameType::three or GameType::four
@@ -159,6 +158,7 @@ void Panel::on_start_button_click(wxCommandEvent & event)
 		as parameter arguments to the get_game function
 		*/
 		board = manager->get_game(4);
+
 
 		tic_tac_toe_grid_3->Show(false);
 		tic_tac_toe_grid_4->Show(true);
@@ -255,7 +255,6 @@ void Panel::set_winner_labels()
 	x_winner_label->SetValue(std::to_string(x));
 	o_winner_label->SetValue(std::to_string(o));
 	c_winner_label->SetValue(std::to_string(c));
-	
 
 	this->Layout();
 }
