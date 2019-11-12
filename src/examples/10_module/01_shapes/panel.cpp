@@ -41,8 +41,6 @@ void Panel::OnDraw(wxCommandEvent & event)
 	cdc->Clear();
 
 	draw_shape(Point(200, 200));
-
-	shape->draw();
 }
 
 void Panel::OnMouseDown(wxMouseEvent & event)

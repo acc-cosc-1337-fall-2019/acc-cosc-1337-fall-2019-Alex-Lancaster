@@ -5,6 +5,7 @@
 #include<string>
 #include<memory>
 #include "text.h"
+#include "shape.h"
 #include "circle.h"
 #include "rectangle.h"
 
