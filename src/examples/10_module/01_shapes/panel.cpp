@@ -76,7 +76,7 @@ void Panel::draw_shape(Point p, int width, int height, int radius)
 	}
 	else if (radio_box->GetSelection() == 2)//Draw Rectangle
 	{
-		shape = std::make_unique<acc::Rectangle>(cdc, p, width, height);
+		shape = std::make_unique<mod10ex::Rectangle>(cdc, p, width, height);
 	}
 
 	shape->draw();
