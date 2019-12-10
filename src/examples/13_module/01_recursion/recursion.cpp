@@ -2,6 +2,13 @@
 #include<iostream>
 //
 
+// infinite loop stack overflow example (no base case)
+void call_myself()
+{
+	call_myself();
+}
+
+// adds in base case, allows to unroll/release memory after recursive functionx
 void display(int n)
 {
 	if (n == 0) 
@@ -24,6 +31,7 @@ int factorial(int n)
 		return f;
 	}
 
+	//see diagram in lecture to load/unload stack
 	std::cout << "load stack"<<n<<' \n';
 	f = n * factorial(n - 1);
 	std::cout << "unload stack \n";
